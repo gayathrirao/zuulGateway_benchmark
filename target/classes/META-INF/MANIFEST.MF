@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: madhav
+Build-Jdk: 11.0.2
+Implementation-Title: ZuulGateway
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.sapient.benchmark
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/ZuulGateway
+Created-By: Maven Integration for Eclipse
+

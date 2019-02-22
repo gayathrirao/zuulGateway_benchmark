@@ -1,0 +1,4 @@
+server:  port: 8762
+eureka:
+  client:    serviceUrl:       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}debug: falsezuul:  ribbon:    eager-load:      enabled: true  prefix: /api  strip-prefix: true  routes:        candidate:      path: /candidate/**      strip-prefix: false      serviceId: candidate          training:      path: /training/**      strip-prefix: false      serviceId: training    
+      
